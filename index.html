@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to string method in javascript</title>
+</head>
+<body>
+    <h1>Introduction to string method in javascript</h1>
+    <p>This is a simple introduction to some of the most commonly used string methods in javascript</p>
+    <ul>
+        <li><b>.touppercase():</b>Converts a string to upper case</li>
+        <li><b>.tolowercase():</b>Converts a string to lower case</li>
+        <li><b>.startwith(''):</b>Converts a string starts wiht a specified substring</li>
+    </ul>
+    <hr>
+    <h3>Loops in javascript</h3>
+    <p id="demo"></p>
+    <script>
+        var str="AmAizInG"
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith("A"));
+
+        var text="";
+        for(var i=0;i<11;i++){
+            text+="the number is "+i+"<br>"
+        }
+        document.getElementById("demo").innerHTML=text
+    </script>
+    
+</body>
+</html>
